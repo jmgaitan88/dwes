@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+
+body{margin: 0;}
+
+header{
+    height: 20vh;
+    text-align: center;
+    background-image: url("imagenes/pokeballs.jpg");
+}
+
+section{
+    min-height: 70vh;
+    
+}
+
+footer{
+    height: 10vh;
+    background-image: url("imagenes/pokeball.jpg");
+}
+
+#titulo{
+    margin: 0;
+    padding: 30px;
+    font-size: 60px;
+}
+
+#footer{
+    margin: 0;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.enlacepokemon{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+   
+    
+    
+}
+
+.botones{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #edb8fa;
+}
+
+.botones:hover{
+    color: #edb8fa;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.listapokemon{
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 1px;
+    margin: 15px;
+    background-color: #b1fdfa;
+    padding: 4px;
+    border-radius: 8px;
+    
+    
+}
+
+.listapokemon:hover{
+    
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 1px;
+    margin: 15px;
+    background-color: whitesmoke;
+    padding: 4px;
+    border-radius: 8px;
+    
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#volver{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 1px;
+    margin: 15px;
+    background-color: #edb8fa;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#volver:hover{
+    color: #edb8fa;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 1px;
+    margin: 15px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+}
